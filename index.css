@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color:/*rgb(51, 50, 51)*/#596164;
+    color: white;
+
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    scroll-behavior: smooth;
+
+}
+
+.bg_img{
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    box-shadow: 0px 0px 20px 5px /*rgb(165, 13, 13)*/ whitesmoke;
+
+
+}
+
+.navbar{
+    background-color: transparent;
+    overflow: hidden;
+   width: 100%;
+   padding: 20px 0px 20px 0px;
+   box-sizing: border-box;
+   display: inline-block;
+   user-select: none;
+   scroll-behavior: smooth;
+}
+
+.left{
+float:left;
+margin-left: 10px;
+width: auto;
+}
+
+#logo{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    text-align: center;
+}
+
+#slogan{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+}
+.lnks{
+    float: right;
+    padding: 20px 0px 20px 0px;
+    width: auto;
+}
+.lnks a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 3px solid #FF0800;
+    text-align:center;
+    margin-right:10px ;
+    border-radius:50px ;
+}
+
+.lnks a:hover{
+    box-shadow: 0px 0px 4px 3px grey;
+}
+
+.active{
+    background-color: #FF0800 ;
+    border: 2px solid white !important;
+}
+
+.red{
+    color: #FF0800;
+}
+
+
+.container_2{
+    width: 80%;
+    border: 3px solid red;
+    padding: 15px;
+    margin: 30px auto 0 auto;
+    color: black;
+    user-select: none;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.container_2 h1{
+    text-align: center;
+    font-size: 48px;
+
+}
+
+.container_2 p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.cap{
+ 
+    text-transform: uppercase;
+}
+
+.stk::first-letter{
+    color:black;
+    background-color: wheat;
+    border-radius: 5px;
+    box-shadow: -4px 4px 5px 0px #FF0800;
+    font-size: 250%;
+    padding: 10px 8px;
+    margin-right: 6px;
+    float: left;
+    text-transform: uppercase;
+}
+
+.stk{
+    padding: 30px 10px 30px 10px;
+}
+
+.container_3{
+ background-image: linear-gradient(0deg, rgb(51, 50, 51) 30%, #596164 100%);
+    margin: 30px 0px;
+    width: 100%;
+    height: 500px;
+
+}
+
+.intro{
+    border: 1px solid red;
+    height: 500px;
+}
