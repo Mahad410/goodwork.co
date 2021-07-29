@@ -405,11 +405,11 @@ width: auto;
     }
     
     #logo{
-        font-size: 120%;
+        font-size: 140%;
     }
     
     #slogan{
-        font-size: 60%;
+        font-size: 70%;
     }
     
     .lnks{
@@ -445,7 +445,7 @@ width: auto;
     }
     
     .intro h1{
-        font-size: 120% !important;
+        font-size: 110% !important;
         padding: 5px;
         width: 90%;
     }
@@ -461,7 +461,7 @@ width: auto;
     
     .container_4 h1{
         padding: 8px;
-        font-size: 120% !important;
+        font-size: 110% !important;
         width: 85%;
     }
 
@@ -503,13 +503,12 @@ width: auto;
     
     
     .container_5{
-
         margin-top: 5%;
     }
     .container_5 h1{
         width: 85%;
         padding: 8px;
-        font-size: 120%;
+        font-size: 110%;
     }
     
     .discord{
