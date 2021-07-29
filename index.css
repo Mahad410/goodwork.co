@@ -355,7 +355,7 @@ width: auto;
 }
 
 .reg{
-    background-image: url(register.png);
+    background-image: url(website.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -371,9 +371,30 @@ width: auto;
 }
 
 
-/*resopniveness 320px*/
+.shw{
+    background-image: url(arrow-up.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10px;
+}
 
-@media (min-width:320px) and (max-width:425px)
+.reg_b h1{
+    border: none;
+    font-size: 140%;
+}
+.reg_c{
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*resopniveness*/
+
+@media (min-width:320px) and (max-width:768px)
 {
     .container{
         width: 100%;
@@ -426,6 +447,7 @@ width: auto;
     .intro h1{
         font-size: 120% !important;
         padding: 5px;
+        width: 90%;
     }
     
     .intro p{
@@ -524,11 +546,21 @@ width: auto;
         color: black;
         margin-top: 5%;
     }
-    
     .reg{
         width: 60px;
         height: 60px;
     }
     
-  
+    .shw{
+        width: 60px;
+        height: 60px;
+    }
+
+    .reg_b h1{
+        border: none;
+        font-size: 100% !important;
+    }
+    .reg_c{
+        width: 60px;
+    }
 }
