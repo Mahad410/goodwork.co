@@ -353,7 +353,12 @@ user-select: none;
     left: 5%;
 
 }
-.f_left span{
+
+.f_left p{
+    text-align: center;
+    font-size:18px ;
+}
+.f_right span{
     font-size: 36px;
 }
 
@@ -362,6 +367,7 @@ svg{
     padding: 10px;
     color: #FF0800;
     opacity: 0.6;
+
 }
 
 svg:hover {
@@ -370,30 +376,21 @@ svg:hover {
 
 .footer_social li{
     display: inline-block;
+    
 }
 
 .f_right{
-    position: absolute;
+    float: right;
     right: 5%;
+    position: absolute;
+    top: 110px;
+
 }
+
 ul{
     list-style: none;
 }
-.f_right li {
-    padding: 8px;
-    color: white;
-    font-weight: bold;
-    font-size: 24px;
-    }
 
-.l_header{
-    font-size: 36px !important;
-    color:#FF0800 !important;
-}
-.link_group{
-    display: inline-table;
-    padding: 20px;
-}
 .container_7{
     margin: 40px 0px;
     width: 100%;
@@ -440,6 +437,21 @@ ul{
     margin-left: auto;
     margin-right: auto;
 }
+
+.dp{
+    background-image:url(dp.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 150px;
+    height: 150px;
+    border: 10px solid wheat;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 /*resopniveness*/
 
 @media (min-width:320px) and (max-width:768px)
@@ -591,44 +603,42 @@ ul{
         }
 
         .f_left{
-            
             position: absolute;
-            top: 100px;
-            text-align: left;
+            left: 0;
+            right: 0;
+            top: 10px;
         }
 
-        .f_left span{
-            font-size: 20px;
+
+        .f_left h1{
+            font-size: 22px;
         }
         
+        .f_left p{
+            font-size: 14px;
+        }
         svg{
             width: 30px;
             padding: 5px;
 
         }
-        .f_left span{
-            font-size: 20px;
+        .f_right span{
+            font-size: 17px ;
         }
         
         .f_right{
+            position: absolute;
             left: 0;
             right: 0;
-            display: none;
+            top: 140px;
         }
-        
-        .f_right li {
-            padding: 2px;
-            font-size: 8px;
-            letter-spacing: 2px;
-            }
-        
-        .l_header{
-            font-size: 15px !important;
+
+        .dp{
+            width: 70px;
+            height: 70px;
+            border: 5px solid wheat;
         }
-        .link_group{
-            display: inline-table;
-            padding: 2px;
-        }
+
     
     .container_7{
         margin: 40px 0px;
