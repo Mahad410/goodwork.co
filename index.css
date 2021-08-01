@@ -381,14 +381,14 @@ ul{
 }
 .f_right li {
     padding: 8px;
-    color: #FF0800;
+    color: white;
     font-weight: bold;
     font-size: 24px;
     }
 
 .l_header{
     font-size: 36px !important;
-    color:white !important;
+    color:#FF0800 !important;
 }
 .link_group{
     display: inline-table;
@@ -591,9 +591,9 @@ ul{
         }
 
         .f_left{
-            display: grid;
+            
             position: absolute;
-            top: 130px;
+            top: 100px;
             text-align: left;
         }
 
@@ -613,15 +613,17 @@ ul{
         .f_right{
             left: 0;
             right: 0;
+            display: none;
         }
         
         .f_right li {
             padding: 2px;
-            font-size: 12px;
+            font-size: 8px;
+            letter-spacing: 2px;
             }
         
         .l_header{
-            font-size: 1rem !important;
+            font-size: 15px !important;
         }
         .link_group{
             display: inline-table;
