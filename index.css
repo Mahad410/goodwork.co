@@ -356,7 +356,7 @@ user-select: none;
 
 .f_left p{
     text-align: center;
-    font-size:18px ;
+    font-size:22px ;
 }
 .f_right span{
     font-size: 36px;
@@ -615,7 +615,7 @@ ul{
         }
         
         .f_left p{
-            font-size: 14px;
+            font-size: 16px;
         }
         svg{
             width: 30px;
@@ -623,14 +623,14 @@ ul{
 
         }
         .f_right span{
-            font-size: 17px ;
+            font-size: 17px;
         }
         
         .f_right{
             position: absolute;
             left: 0;
             right: 0;
-            top: 140px;
+            top: 150px;
         }
 
         .dp{
